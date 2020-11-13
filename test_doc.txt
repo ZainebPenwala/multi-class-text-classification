@@ -1,0 +1,12 @@
+Customer i want to learn about taxes. can you help?
+Agent yes sir
+Customer so why do i have to pay taxes at all?
+Agent thats the law
+Customer okay got it
+Agent plus you can apply online at IRCTC for online payments
+Customer would cleartax help?
+Agent yes yes it would
+Customer wow cool
+Agent do you have any more questions about taxation?
+Customer not really
+Agent thanks! have a nice day!
