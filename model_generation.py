@@ -5,16 +5,10 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_selection import chi2
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import LinearSVC
-from sklearn.model_selection import cross_val_score
-from sklearn import metrics
 import pickle
 
 
@@ -91,7 +85,7 @@ labels = df.category_id
 # print(labels)
 # print(features.shape)
 
-# training model using navie bayesian
+# building and training model using navie bayesian
 
 X_train, X_test, y_train, y_test = train_test_split(df['body'], df['tag'], random_state = 0)
 count_vect = CountVectorizer()
